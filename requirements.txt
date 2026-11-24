@@ -1,0 +1,9 @@
+
+streamlit==1.40.2
+langchain==0.3.27
+langchain-community==0.3.27
+langchain-text-splitters==0.3.9
+langchain-core==0.3.72
+chromadb==1.0.15
+sentence-transformers==3.4.1
+pypdf==5.9.0

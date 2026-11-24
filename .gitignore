@@ -1,0 +1,63 @@
+
+# ==========================================
+# ENSET RAG - Git Ignore
+# ==========================================
+
+# Environnements virtuels Python
+.venv/
+venv/
+env/
+ENV/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers de configuration sensibles
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Bases vectorielles ChromaDB
+chroma_db/
+chroma/
+chroma.sqlite3
+
+# Modèles et cache Hugging Face
+.cache/
+huggingface/
+models/
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.log
+
+# Cache des tests
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Fichiers système Windows
+Thumbs.db
+Desktop.ini
+
+# Fichiers système macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Fichiers générés
+dist/
+build/
+*.egg-info/
